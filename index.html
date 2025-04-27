@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopJHTE - Premium Products</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">ShopJHTE</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="dropdown">
+                <a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="#">Electronics</a>
+                    <a href="#">Fashion</a>
+                    <a href="#">Home & Garden</a>
+                    <a href="#">Sports</a>
+                </div>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="fas fa-user"></i></a>
+            <a href="#" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Premium Products for Your Lifestyle</h1>
+            <p>Discover our curated collection of high-quality items</p>
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="https://img.freepik.com/premium-photo/wireless-headphones_488220-44066.jpg" alt="Wireless Headphones">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <span class="discount-tag">-20%</span>
+                </div>
+                <div class="product-info">
+                    <h3>Premium Wireless Headphones</h3>
+                    
+                    <div class="price">
+                        <span class="current-price">$89.99</span>
+                        <span class="original-price">$112.99</span>
+                    </div>
+                    <div class="destination-2">
+                        <div class="product-description1">
+                            <h2>Premium Wireless Headphones</h2>
+                            
+                            <div class="short-description">
+                                <p>Experience crystal-clear audio without the hassle of wires! Our wireless headphones deliver studio-quality sound, deep bass, and crisp highs...</p>
+                            </div>
+                            
+                            <div class="full-description">
+                                <h3>Key Features:</h3>
+                                <ul>
+                                    <li><strong>Advanced Bluetooth 5.0+</strong> – Seamless connectivity up to 30 feet.</li>
+                                    <li><strong>Long Battery Life</strong> – Up to 40 hours of playtime.</li>
+                                    <li><strong>Noise Isolation & Clear Mics</strong> – Perfect for calls and music.</li>
+                                    <li><strong>Lightweight & Comfortable</strong> – Memory foam ear cushions.</li>
+                                </ul>
+                                <h3>Perfect For:</h3>
+                                <p>🎧 Music Lovers | 📞 Professionals | ✈️ Travelers | 🏋️ Gym Enthusiasts</p>
+                            </div>
+                            
+                            <span class="read-more-btn" onclick="toggleReadMore()">Read More</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <di class="product-card">
+                <div class="product-image">
+                    <img src="https://ae01.alicdn.com/kf/H2d85051a6ffb4ffb9bbc63b5c43420b8q.jpg" alt="Smart Watch">
+                    <div class="product-overlay">
+                        <button class="quick-view">Quick View</button>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Smart Fitness Watch</h3>
+                    
+                    <div class="price">
+                        <span class="current-price">$129.99</span>
+                    </div>
+                    
+                        <div class="watch-description">
+                            <h2>Smart Fitness Watch</h2>
+                            
+                            <div class="short-description">
+                          <p>The Watch is a premium smartwatch that combines elegant design with advanced health and fitness tracking features. With its sleek circular AMOLED display and lightweight aluminum alloy body, it offers both style and durability for everyday wear.</p>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            
+            </div>
+            
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <!-- Factorial Calculator -->
+     <section class="factorial-calculator">
+        <div class="calculator">
+            <h2>Factorial Calculator</h2>
+            <input type="number" id="numberInput" placeholder="Enter a positive integer">
+            <div class="buttons">
+                <button onclick="calculateIterative()">Calculate Iteratively</button>
+                <button onclick="calculateRecursive()">Calculate Recursively</button>
+            </div>
+            <div id="output"></div>
+            <div id="error"></div>
+        </div>    
+    </section>
+    <script src="script.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>ShopJHTE</h3>
+                <p>Your one-stop destination for premium products and exceptional shopping experience.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ShopJHTE. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
